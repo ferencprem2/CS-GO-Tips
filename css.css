@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#menu{
+    height: 50px;
+    width: 100%;
+    background-color: #0D0d0D;
+    margin-left: 0;
+
+}
+#menu ul{
+    display: inline;
+    
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    
+}
+#menu ul li{
+    display: inline;
+    padding: 110px;
+    line-height: 50px ;
+ 
+
+}
+#tartalom{
+    width: 100%;
+    min-height: calc(100vh - 50px);
+    background-color: #3a0303;
+    margin: 0;
+    padding-top: 10px;
+
+}
+img{
+    height: 200px;
+
+}
+p{
+    font-size: 20px;
+}
+h4{
+    color: white;
+}
