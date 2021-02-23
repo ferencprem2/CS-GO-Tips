@@ -1,12 +1,15 @@
 body{
     margin: 0;
-    padding: 0;
+    padding-left: 0;
+    background-color: #3a0303;
+
 }
 #menu{
     height: 50px;
     width: 100%;
     background-color: #0D0d0D;
     margin-left: 0;
+    text-align: center;
 
 }
 #menu ul{
@@ -25,21 +28,89 @@ a{
  
 
 }
-#tartalom{
+#tartalom, #tartalom2, #tartalom3, #tartalom4{
     width: 100%;
     min-height: calc(100vh - 50px);
     background-color: #3a0303;
     margin: 0;
     padding-top: 10px;
+    
 
 }
 img{
     height: 200px;
+    padding-left: 10px;
 
 }
 p{
     font-size: 20px;
-}
-h4{
     color: white;
+}
+h1, h2, h3, h4{
+  
+    color: white;
+}
+#tartalom2 img{
+    padding-left: 10px;
+
+}
+#rang1{
+    position: absolute;
+    left: 200px;
+    top: 485px;
+    height: 400px;
+}
+li{
+color: white;
+font-size: 15px;    
+padding-bottom: 55px;
+}
+#rang2{
+    position: absolute;
+    left: 555px;
+    top: 485px;
+    height: 400px;
+}
+#rang3{
+    position: absolute;
+    left: 1000px;
+    top: 485px;
+    height: 400px;
+}
+#ketto{
+    padding-left: 400px;
+    position: absolute;
+    top: 475px;
+}
+#harom{
+    padding-left: 800px;
+    position: absolute;
+    top: 475px; 
+}
+h1, h2, h3, h4, p{
+    padding-left: 10px;
+    padding-bottom: 0;
+}
+#tartalom4 img{
+    padding-left: 36px;
+}
+#mark{
+    width: 100px;
+}
+#best{
+    padding-left: 40px;
+    text-align: center;
+}
+#mark{
+    position: absolute;
+    left: 600px;
+    width: 300px;
+}
+#kuni{
+    position: absolute;
+    left: 950px;
+    width: 300px;
+}
+#tartalom3 img{
+    padding-left: 45px;
 }
